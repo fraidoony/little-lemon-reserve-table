@@ -1,5 +1,8 @@
 
 footer {
+    width: 80%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-inline: auto;
+    /* background-color: #333333; */
 }

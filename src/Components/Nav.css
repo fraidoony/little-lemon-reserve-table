@@ -2,7 +2,8 @@
 nav {
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    align-items: center;
+    width: 80%;
     margin-inline: auto;
 }
 ul {

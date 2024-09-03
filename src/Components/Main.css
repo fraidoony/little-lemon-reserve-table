@@ -1,0 +1,47 @@
+
+
+.main {
+   width: 80%;
+    background-color: aqua;
+    margin-top: 100px;
+    margin-inline: auto;
+}
+
+.main-first-section {
+    /* width: 60%; */
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+}
+
+.cardWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+
+    .feature-body {
+        width: 350px;
+    }
+}
+
+.feature-images img {
+    height: 250px;
+}
+
+.feature-image1 {
+    transform: translateY(100px);
+}
+
+.feature-image2 {
+    transform: translateX(-50px);
+}
