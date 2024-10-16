@@ -14,3 +14,16 @@ ul {
         margin-inline: 10px;
     }
 }
+
+a:visited {
+    color: #101e19;
+    text-decoration: none;
+}
+a:link { 
+    text-decoration: none; 
+  } 
+
+a:hover {
+    color:#495E57;
+    font-weight: bold;
+}
