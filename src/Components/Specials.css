@@ -1,6 +1,4 @@
-
-
-.testimonials-container {
+.cardWrapper {
     display: flex;
     justify-content: space-between;
 }

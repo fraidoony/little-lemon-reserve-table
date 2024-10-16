@@ -1,20 +1,43 @@
+import TestimonialCard from "./TestimonialCard";
+import JaneBrown from "../assets/testimonial1.png";
+import UmaThorman from "../assets/testimonial2.png";
+import MaryThomsons from "../assets/testimonial3.png";
+import KateJohnsons from "../assets/testimonial4.png";
+import "../Components/Testimonials.css";
 
-import "./Testimonials.css";
 
-const Testimonial = (props) => {
+const Testimonials = () => {
+    const testimonialData = [
+        {
+            name: "Jane Brown",
+            imgSrc: JaneBrown
+
+        },
+        {
+            name: "Uma Thorman",
+            imgSrc: UmaThorman
+        },
+        {
+            name: "Mary Thomsons",
+            imgSrc: MaryThomsons
+        },
+        {
+            name: "Kate Johnsons",
+            imgSrc: KateJohnsons
+        }
+
+    ]
+
 
     return (
-        <div className="testimonial-card-container">
-            <h3>Rating</h3>
-            <div className="testimonial-body">
-                <div className="testimonial-image-wrapper">
-                <img src={props.imageSrc} alt="Testimonial" />
-                </div>
-                <h3>{props.testimonialName}</h3>
-            </div>
-            <p>User review</p>
+        <div className="testimonials-container">
+            {
+                testimonialData.map((testimonial) => {
+                   return <TestimonialCard key={testimonial.name} name={testimonial.name} imageSrc={testimonial.imgSrc} />
+                })
+            }
         </div>
     )
 }
 
-export default Testimonial;
+export default Testimonials;

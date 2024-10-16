@@ -1,0 +1,20 @@
+
+.testimonial-card-container {
+    background-color: bisque;
+    width: 200px;
+    /* padding: 20px; */
+    padding-left: 15px;
+    
+}
+
+.testimonial-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.testimonial-image-wrapper img {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}

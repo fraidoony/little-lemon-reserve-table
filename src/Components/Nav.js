@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import logoSvg from "../assets/Logo.svg";
 import "../Components/Nav.css";
 
@@ -10,12 +11,19 @@ function Nav(){
                 <img src={logoSvg} alt="Little Lemon Restaurant Logo" />
             </div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Menu</a></li>
+                <li>
+                    <NavLink to="/">Home</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/booking-page">Reserve Table</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/confirmed-booking">dfds</NavLink>
+                </li>
+                {/* <li><a href="#">Menu</a></li>
                 <li><a href="#">Reservations</a></li>
                 <li><a href="#">Order Online</a></li>
-                <li><a href="#">Login</a></li>
+                <li><a href="#">Login</a></li> */}
             </ul>
         </nav>
     )

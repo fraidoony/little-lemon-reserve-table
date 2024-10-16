@@ -1,15 +1,29 @@
 header {
   
-    height:300px;
+    height:400px;
     background-color: #495E57;
-    
-   
+    padding-top: 30px;
+    width: 100%;
+}
+
+.little-lemon {
+    color: #F4CE14;
+    font-size: 36px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.chicago {
+    color: white;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .header-section {
-    width: 80%;
-   margin-inline: auto;
-   display: flex;
+    width: 50%;
+    margin-inline: auto;
+    display: flex;
     justify-content: space-between;
     
 }
@@ -17,14 +31,16 @@ header {
     display: inline-block;
 }
 .header-description {
-    width: 170px;
+    width: 195px;
+    color: white;
 }
 
 .hero-image-container {
-   transform: translateY(70px);
+   transform: translateY(140px);
    
 }
 .hero-section-image {
-    width: 200px;
+    width: 250px;
+    border-radius: 16px;
     
 }

@@ -13,7 +13,7 @@ code {
 }
 
 .main-container {
-  width: 1280px;
+  width: 100%;
   display: grid;
  margin-inline: auto;
 }

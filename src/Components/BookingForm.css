@@ -1,0 +1,14 @@
+
+.dateInput {
+    margin-bottom: 0;
+   
+}
+.error {
+    margin-top: 0;
+    padding-top: 0;
+    color: red;
+    font-size: 11px;
+    line-height: 0;
+    transform: translateY(-10px);
+
+}

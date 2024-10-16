@@ -1,8 +1,21 @@
 
 footer {
-    width: 80%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-inline: auto;
-    /* background-color: #333333; */
+    
+    background-color: #495E57;
+    color: white;
+    font-size: 18px;
+
+}
+
+.image-container {
+    height: 80%;
+    padding: 10px;
+    margin-top: 1.5%;
+    background-color: white;
+    display: flex;
+    align-items: center;
 }
