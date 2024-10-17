@@ -1,11 +1,11 @@
-
+import Rating from "../assets/rating.png";
 import "./TestimonialCard.css";
 
 const Testimonial = (props) => {
 
     return (
         <div className="testimonial-card-container">
-            <h3>Rating</h3>
+            <img className="rating" src={Rating} alt="Rating" />
             <div className="testimonial-body">
                 <div className="testimonial-image-wrapper">
                 <img src={props.imageSrc} alt="Testimonial" />
